@@ -1,0 +1,16 @@
+<h1>Welcome to {{ title }}</h1>
+<nav>
+  <a
+    style="margin-right: 10px; text-decoration: none; font-weight: bold"
+    routerLink="/dashboard"
+    >Dashboard</a
+  >
+  <a
+    style="margin-right: 10px; text-decoration: none; font-weight: bold"
+    routerLink="/heroes"
+    >Heroes</a
+  >
+</nav>
+
+<router-outlet></router-outlet>
+<app-messages></app-messages>
